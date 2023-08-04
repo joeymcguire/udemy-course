@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
- <title>Misty Mountain Hop</title>
+ <title>Udemy Project</title>
  <meta charset="utf-8" />
  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
  <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,6 +9,8 @@
 </head>
 <body>
 	<div>
+
+		<a name="sec1" />
 		<h1>This is a huge header</h1>
 		<h2>This one's a little smaller</h2>
 		<p>This is sample paragraph text. <br />This line is to illustrate the br-slash function, which allows text <br />to be added into a single paragraph, but on a separate line, and <br />not starting a new paragraph.</p>
@@ -26,6 +28,8 @@
 			<li>Megadeth</li>
 			<li>Motley Crue</li>
 		</ul>
+
+		<a name="sec2" />
 
 		<h3>Bands That Suck</h3>
 
@@ -55,13 +59,105 @@
 			<p>This one has text already applied. User must delete this text before typing.</p>
 			<input type="text" placeholder="type here..." />
 			<p>This one has faint text which disappears when user begins typing.</p>
-			<input type="email" placeholder="type here..." />
-			<p>This one validates an email address</p>
+			<input type="email" placeholder="Your email here..." name="email"/>
+			<p>This one validates an email address. By adding the NAME="EMAIL" attribute, the email address entered will show in address bar.</p>
+
+			<br /><br />
+
+			<textarea name="textarea">Content goes here</textarea>
+
+			<p>with content in between</p>
+
+			<textarea></textarea>
+
+			<p>with nothing between the textarea tags</p>
+
+			<br /><br />
+
+			<select>
+				<option>Select an option...</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+
+			</select>
+
+			<br /><br />
+
+			<input type="radio" name="color" value="Red" /> Red
+			<input type="radio" name="color" /> Green
+
+			<p>Adding the NAME="CATEGORY" tag means only one button can be selected.</p>
+
+			<br /><br />
+
+			<h2>Favorite Animals</h2>
+
+			<input type="checkbox" name="dog" value="1" />Dog
+			<input type="checkbox" />Cat
+			<input type="checkbox" />Bird
+			<input type="checkbox" />Snake
+			<input type="checkbox" />Horse
+
+			<p>Using TYPE="CHECKBOX" allows multiple boxes to be checked.</p>
+
+			<input type="submit" value="Enroll Now" />
+
+			<h2>NAME and VALUE attributes can be applied to all of these. Cannot submit until NAME is present.</h2>
+
+
+			<input type="submit" />
+
 
 		</form>
 
-		<p>Git Hub is counterintuitive. Have to practice to understand how to <br />
-		get it to update new file</p>
+		<h2>This is the Link Section</h2>
+
+		<p><a href="http://planetjoeymcguire.com">Planet Joey McGuire</a></p>
+		<p><a href="localfile.html">Link to Local File</a></p>
+		<p><a href="#sec1">To Section One of Document</a></p>
+		<p><a href="#sec2">To Section Two of Document</a></p>
+
+		<h2>This is the Table Section</h2>
+
+		<table>
+			<tr><th>Currency Pairs</th><th>Date</th><th>Wins</th><th>Losses</th></tr>
+			<tr><td>AUD/USD</td><td>8/4/2023</td><td>17</td><td>4</td></tr>
+			<tr><td>EUR/USD</td><td>8/1/2023</td><td>12</td><td>9</td></tr>
+			<tr><td>GBP/USD</td><td>8/1/2023</td><td>9</td><td>12</td></tr>
+			
+
+		</table>
+
+		<h2>HTML Entities</h2>
+
+		<p>Go to w3schools.com</p>
+
+		<h2>Embed content from another page into your page</h2>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/wR9ovedknXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+		<p>For YouTube video, copy and paste code under "Share" button.</p>
+
+
+
+
+
+
+
+
+		
+		<br /><br />
+		<br /><br />
+		<br /><br />
+		<br /><br />
+		<br /><br />
+		<br /><br />
+		<br /><br />
+		<br /><br />
+		<br /><br />
+		<br /><br />
 
 
 
